@@ -56,6 +56,8 @@ body {
         flex-direction: column-reverse;
         height: auto;
         margin-top: 2rem;
+        border: 3px solid red;
+        min-height: auto;
     }
 
     .about-main-box {
@@ -121,6 +123,10 @@ body {
 
     .footer-box {
         width: 75vw;
+    }
+
+    .hero-main {
+        min-height: 90vh;
     }
 }
 

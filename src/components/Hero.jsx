@@ -28,10 +28,8 @@ function HeroMain() {
       alignItems="center"
       gap="2rem"
       justifyContent="space-between"
-      minH="90vh"
       className="hero-main"
       mb="4rem"
-      // border="2px solid red"
     >
       <Box
         maxWidth="500px"
@@ -48,10 +46,6 @@ function HeroMain() {
           >
             Full Stack Developer
           </Text>
-          {/* <Image
-            src="https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png"
-            className="wave-image"
-          /> */}
         </Box>
 
         <Text color="#555555" fontSize="1.1rem">

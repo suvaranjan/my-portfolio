@@ -24,9 +24,7 @@ function HeroMain() {
   return (
     <Box
       display="flex"
-      // border="2px solid green"
       alignItems="center"
-      gap="2rem"
       justifyContent="space-between"
       className="hero-main"
       mb="4rem"

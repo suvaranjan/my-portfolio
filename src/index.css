@@ -55,9 +55,10 @@ body {
     .hero-main {
         flex-direction: column-reverse;
         height: auto;
-        margin-top: 2rem;
-        border: 3px solid red;
+        margin-top: 3rem;
+        /* border: 3px solid red; */
         min-height: auto;
+        gap: 4rem;
     }
 
     .about-main-box {
@@ -127,6 +128,7 @@ body {
 
     .hero-main {
         min-height: 90vh;
+        gap: 2rem;
     }
 }
 

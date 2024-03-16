@@ -37,7 +37,7 @@ export default function Project() {
           <SwiperSlide>
             <Box className="slideBox" border="1px solid #555555" height="100%">
               <Image
-                src="../src/assets/chat-app.png"
+                src="https://res.cloudinary.com/suvaranjan/image/upload/v1710574785/chat-app_lys0nt.png"
                 width="100%"
                 display="block"
                 height="200px"
@@ -65,7 +65,7 @@ export default function Project() {
           <SwiperSlide>
             <Box className="slideBox" border="1px solid #555555" height="100%">
               <Image
-                src="../src/assets/blog-app.png"
+                src="https://res.cloudinary.com/suvaranjan/image/upload/v1710574735/blog-app_p5riwo.png"
                 width="100%"
                 display="block"
                 height="180px"
@@ -93,7 +93,7 @@ export default function Project() {
           <SwiperSlide>
             <Box className="slideBox" border="1px solid #555555" height="100%">
               <Image
-                src="../src/assets/quiz.png"
+                src="https://res.cloudinary.com/suvaranjan/image/upload/v1710574842/quiz_dxsij4.png"
                 width="100%"
                 display="block"
                 height="180px"

@@ -12,7 +12,7 @@ body {
 }
 
 .myImage {
-    background: url("../src/assets/profile-2.jpg");
+    background: url("https://res.cloudinary.com/suvaranjan/image/upload/v1710575012/profile_pjfmk7.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

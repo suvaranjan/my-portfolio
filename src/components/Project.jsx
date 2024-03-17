@@ -6,12 +6,12 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
-import { Box, Button, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Image, Link, Text } from "@chakra-ui/react";
 
 export default function Project() {
   return (
     <>
-      <Box className="container" mt="5.5rem">
+      <Box className="container" mt="5.5rem" id="project">
         <Text fontWeight="600" fontSize="1.6rem" textAlign="center">
           Projects
         </Text>
@@ -56,7 +56,13 @@ export default function Project() {
                   Built responsive chat app with MERN stack for seamless
                   communication.
                 </Text>
-                <Button size="sm" variant="outline" colorScheme="black">
+                <Button
+                  as="a"
+                  size="sm"
+                  variant="outline"
+                  colorScheme="blue"
+                  href="https://chat-app-xi-pearl.vercel.app"
+                >
                   Live View
                 </Button>
               </Box>
@@ -84,7 +90,13 @@ export default function Project() {
                   Built responsive Blog App with Nextjs.The minimalist simple
                   UI/UX Design.
                 </Text>
-                <Button size="sm" variant="outline" colorScheme="black">
+                <Button
+                  as="a"
+                  size="sm"
+                  variant="outline"
+                  colorScheme="blue"
+                  href="https://suvaranjanblog.vercel.app/"
+                >
                   Live View
                 </Button>
               </Box>
@@ -112,7 +124,13 @@ export default function Project() {
                   Built responsive Quiz App with React for a collage student and
                   he is happy with that.
                 </Text>
-                <Button size="sm" variant="outline" colorScheme="black">
+                <Button
+                  as="a"
+                  size="sm"
+                  variant="outline"
+                  colorScheme="blue"
+                  href="https://nptel-test.vercel.app/"
+                >
                   Live View
                 </Button>
               </Box>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Text, Button } from "@chakra-ui/react";
+import { Box, Text, Button, Link } from "@chakra-ui/react";
 import { DownloadIcon } from "@radix-ui/react-icons";
 
 export default function About() {
@@ -30,7 +30,13 @@ export default function About() {
         </Text>
         <Button variant="outline" colorScheme="black" mt={4}>
           <DownloadIcon />
-          <Text ml={2}>Resume</Text>
+          {/* <Text ml={2}>Resume</Text> */}
+          <Link
+            href="https://drive.google.com/file/d/1hTZEev5m71JLDGh8kSLTr-N50lhn9MtK/view"
+            ml={2}
+          >
+            Resume
+          </Link>
         </Button>
       </Box>
     </Box>

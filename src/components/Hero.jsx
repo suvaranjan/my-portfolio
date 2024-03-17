@@ -68,13 +68,7 @@ function HeroMain() {
 function TechStack() {
   return (
     <>
-      <Flex
-        alignItems="center"
-        // border="2px solid green"
-        mb={5}
-        className="tech-stack"
-        gap={5}
-      >
+      <Flex alignItems="center" mb={5} className="tech-stack" gap={5}>
         <Text
           color="#2D2E32"
           fontSize="1.1rem"

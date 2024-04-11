@@ -5,6 +5,7 @@ import {
   UnorderedList,
   Text,
   Flex,
+  Link,
 } from "@chakra-ui/react";
 import React from "react";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
@@ -56,8 +57,13 @@ function HeroMain() {
           gap={4}
           className="hero-main-box-2"
         >
-          <GitHubLogoIcon width="30px" height="30px" />
-          <LinkedInLogoIcon width="30px" height="30px" />
+          <Link href="https://github.com/suvaranjan" isExternal>
+            <GitHubLogoIcon width="30px" height="30px" />
+          </Link>
+
+          <Link href="https://www.linkedin.com/in/suvaranjan/" isExternal>
+            <LinkedInLogoIcon width="30px" height="30px" />
+          </Link>
         </Box>
       </Box>
       <Box className="myImage"></Box>

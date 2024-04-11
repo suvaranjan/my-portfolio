@@ -1,4 +1,4 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Link } from "@chakra-ui/react";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import React from "react";
 
@@ -22,8 +22,13 @@ function Footer() {
           Copyright © 2024. All rights are reserved
         </Text>
         <Box display="flex" flexDirection="row" gap={5}>
-          <GitHubLogoIcon width="30px" height="30px" color="#FAFAFA" />
-          <LinkedInLogoIcon width="30px" height="30px" color="#FAFAFA" />
+          <Link href="https://github.com/suvaranjan" isExternal>
+            <GitHubLogoIcon width="30px" height="30px" color="#FAFAFA" />
+          </Link>
+
+          <Link href="https://www.linkedin.com/in/suvaranjan/" isExternal>
+            <LinkedInLogoIcon width="30px" height="30px" color="#FAFAFA" />
+          </Link>
         </Box>
       </Box>
     </Box>

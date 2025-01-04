@@ -72,7 +72,7 @@ function Contact() {
               fontSize="1.1rem"
               _hover={{ cursor: "pointer", color: "#3182CE" }}
             >
-              suvaranjan.services@gmail.com
+              suvaranjan01@gmail.com
             </Text>
           </Box>
         </Box>

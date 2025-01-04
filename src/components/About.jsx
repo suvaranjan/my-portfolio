@@ -32,7 +32,7 @@ export default function About() {
           <DownloadIcon />
           {/* <Text ml={2}>Resume</Text> */}
           <Link
-            href="https://drive.google.com/file/d/1hTZEev5m71JLDGh8kSLTr-N50lhn9MtK/view"
+            href="https://drive.google.com/file/d/1_AqP0F_jvafiIDcWNo5stqaZJWwoNrjl/view"
             ml={2}
           >
             Resume
